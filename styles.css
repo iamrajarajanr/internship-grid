@@ -65,7 +65,7 @@ nav a:hover {
   display: block;
 }
 
-/* Responsive columns */
+
 @media (max-width: 1200px) {
   .masonry {
     column-count: 3;
