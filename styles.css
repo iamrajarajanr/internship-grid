@@ -1,0 +1,108 @@
+@font-face {
+    font-family: dancingscript;
+    src: url(/DancingScript-VariableFont_wght.ttf);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+
+}
+
+.logo {
+
+    font-family: dancingscript;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+span{
+    margin-left: 40%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.logo span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #999;
+}
+
+/* Masonry Grid */
+.masonry {
+  column-count: 4;
+  column-gap: 15px;
+  padding: 40px 60px;
+}
+
+.masonry img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Responsive columns */
+@media (max-width: 1200px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+
+    header{
+
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    nav>a{
+
+        margin: 5px;
+    }
+
+
+  .masonry {
+    column-count: 1;
+  }
+}
