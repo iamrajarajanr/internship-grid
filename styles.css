@@ -52,13 +52,13 @@ nav a:hover {
 }
 
 
-.masonry {
+.grid {
   column-count: 4;
   column-gap: 15px;
   padding: 40px 60px;
 }
 
-.masonry img {
+.grid img {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -66,19 +66,7 @@ nav a:hover {
 }
 
 
-@media (max-width: 1200px) {
-  .masonry {
-    column-count: 3;
-  }
-}
-
-@media (max-width: 768px) {
-  .masonry {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     header{
 
@@ -102,7 +90,7 @@ nav a:hover {
     }
 
 
-  .masonry {
+  .grid {
     column-count: 1;
   }
 }
