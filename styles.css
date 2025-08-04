@@ -4,15 +4,30 @@
 }
 
 *{
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+
   font-family: 'Segoe UI', sans-serif;
   background: #fff;
   color: #333;
+}
+
+.imgfour{
+  height: 250px;
+}
+
+.imgseven{
+  height: 320px;
+
+}
+
+.imgfifteen{
+  height: 540px;
 }
 
 header {
@@ -53,9 +68,10 @@ nav a:hover {
 
 
 .grid {
+
   column-count: 4;
   column-gap: 15px;
-  padding: 40px 60px;
+  padding: 0px 60px;
 }
 
 .grid img {
@@ -64,6 +80,8 @@ nav a:hover {
   border-radius: 8px;
   display: block;
 }
+
+
 
 
 @media (max-width: 500px) {
